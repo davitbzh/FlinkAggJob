@@ -1,0 +1,36 @@
+{
+  "hopsworksApiKey": "...",
+  "hopsworksUrl": "...",
+  "projectName": "onlineFS",
+  "jobType": "FLINK",
+  "jobName": "flinkJob",
+  "jobManagerMemory": 4024,
+  "taskManagerMemory": 4024,
+  "numTaskManager": 3,
+  "numSlots": 6,
+  "isAdvanced": false,
+  "advancedProperties": "",
+  "userExecutionId": 0,
+  "mainClass": "com.logicalclocks.aggregations.Aggregations",
+  "stateBackend": "rocksDBStateBackend",
+
+  "featureGroupName":"flink_test_fg",
+  "featureGroupVersion": 9,
+
+  "parallelism": 10,
+  "keyName": "customer_id",
+  "timestampField": "received_ts",
+  "sourceTopic": "flink_test_3",
+  "windowSize": 7,
+  "windowTimeUnit": "days",
+  "watermark": 2,
+  "watermarkTimeUnit": "days",
+  "windowType": "tumbling",
+  "slideSize": 1,
+  "slideTimeUnit": "days",
+  "gapSize": 0,
+  "gapTimeUnit": "minutes",
+
+  "withSimulation": false,
+  "batchSize": 120
+}

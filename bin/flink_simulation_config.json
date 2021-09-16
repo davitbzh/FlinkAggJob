@@ -1,0 +1,17 @@
+{
+  "hopsworksApiKey": "...",
+  "hopsworksUrl": "...",
+  "projectName": "onlineFS",
+  "jobType": "FLINK",
+  "jobName": "flinkSimulation",
+  "jobManagerMemory": 1024,
+  "taskManagerMemory": 1024,
+  "numTaskManager": 1,
+  "numSlots": 1,
+  "isAdvanced": false,
+  "advancedProperties": "",
+  "userExecutionId": 0,
+  "mainClass": "com.logicalclocks.aggregations.simulation.SimProducer",
+  "topicName": "flink_test_3",
+  "batchSize": 120
+}

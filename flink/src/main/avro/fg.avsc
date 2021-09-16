@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "namespace": "com.logicalclocks.aggregations.avroSchemas",
+  "name":"TestFg",
+  "fields":[
+    {"name":"customer_id","type":["null","string"]},
+    {"name":"end","type":["null","long"]},
+    {"name":"bench_commit_time","type":["null","long"]},
+    {"name":"kafka_timestamp","type":["null","long"]},
+    {"name":"count_added_to_bag","type":["null","long"]},
+    {"name":"aggregation_start_time","type":["null","long"]},
+    {"name":"aggregation_end_time","type":["null","long"]},
+    {"name":"max_event_timestamp","type":["null","long"]},
+    {"name":"max_deserialization_timestamp","type":["null","long"]},
+    {"name":"max_kafka_event_commit_timestamp","type":["null","long"]}
+  ]
+}
